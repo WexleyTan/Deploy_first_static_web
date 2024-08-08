@@ -1,0 +1,144 @@
+body {
+  font-family: 'Nunito', sans-serif;
+  color: #363A53;
+}
+header{
+  margin:  auto;
+  width: 80%;
+}
+.Hello{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ .center{
+  display: flex;
+  align-items: center;
+} 
+.underline {
+  position: relative; 
+  font-size: 15px;
+  color:  black;
+}
+.C1{
+  list-style: none;
+}
+li{
+  margin-left: 30px;
+}
+.underline::before {
+  content: ''; 
+  position: absolute;
+  bottom: 0; /
+  left: 0; 
+  width: 0; 
+  height: 2px; 
+  background-color: #333; 
+  transition: width 0.3s
+}
+
+.underline:hover::before {
+  width: 100%;
+} 
+.sign{
+  display: flex;
+  padding: 0%;
+}
+.Hi{
+  padding: 10px 30px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.sign button{
+  background-color: #FFA775;
+  padding: 8px 40px;
+  color: aliceblue;
+  border: none;
+}
+
+/* Main */
+main{
+  margin: 20vh;
+  display: flex; 
+  align-items: center; 
+  justify-content: space-between;
+}
+.MP1{
+  font-size: 15px;
+}
+h1{
+  text-transform: uppercase;
+}
+.Main{
+  background-color: #FFA775;
+  color: whitesmoke;
+  padding: 15px;
+  text-align: justify;
+  font-size: medium;
+  font-weight: bold;
+  border: none;
+}
+button:hover{
+  background-color: #EC8A51;
+  cursor: pointer;
+}
+
+
+
+.Last{
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+.left{
+  display: flex;
+  align-items: center;
+  margin: 10vh ;
+  left: -10vh;
+  padding: 5vh 0  ;
+  transform: rotate(-90deg);
+  position: absolute;
+  z-index: 10;                     
+}
+.F1{
+  list-style: none;
+}
+.right{
+    display: flex;
+    margin: 10vh;
+    right: -5px;
+    position: absolute;
+    transform: rotate(-90deg);
+    align-items: center;
+} 
+.right image{
+  margin-left: 10vh;
+}
+
+.Bye{
+  position: relative;
+  width: 80%;
+  margin: auto;
+  border:1px solid bisque;
+  background-color: bisque;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 180px;
+}
+.cats3 {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 90px;
+}
+.cats3 img {
+  vertical-align: middle;
+  margin-right: -10px; 
+  border-radius: 50%;   
+}
+.cats3 img:last-child {
+  margin-right: 0;  
+}
